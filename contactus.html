@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - APNA GHAR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="video.html">Media</a>
+            <a href="donate.html">Donate Us</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+        <div class="nav-right">
+            <button class="donate-btn"><b> DONATE NOW</b></button>
+        </div>
+    </nav>
+    
+    
+    <div class="banner1">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us!</p>
+            
+            <div class="contact-content">
+                <div class="contact-form">
+                    
+                    <form id="contactForm">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                    <div id="successMessage" style="display: none; color: green;">
+                        ✅ Message Sent Successfully!
+                    </div>
+                </div>
+                <div class="contact-details">
+                    <h3>Our Address</h3>
+                    <p>APNA GHAR Orphanage</p>
+                    <p>Hope Street, Tawang, Arunachal Pradesh</p>
+                    <p>Email: info@apnaghar.org</p>
+                    <p>Phone: 1234567890</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 APNA GHAR. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

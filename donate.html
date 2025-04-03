@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APNA GHAR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <nav class="navbar">
+        <div class="nav-left">
+           
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="video.html">Media</a>
+            <a href="donate.html">Donate Us</a>
+            <a href="contactus.html">Contact Us</a>
+           
+        </div>
+        <div class="nav-right">
+            </div>
+            <button class="donate-btn"><b> DONATE NOW</b></button>
+        </div>
+    </nav>
+    </head>
+    <body>
+        <div class="banner4">
+        <div class="container3">
+            <h2>Make a Donation</h2>
+            <form id="donation-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <label for="payment-mode"> Payment Mode:</label>
+                <select id="payment-mode" required>
+                    <option value="">--Select--</option>
+                    <option value="card">Credit/Debit Card</option>
+                    <option value="upi">UPI</option>
+                </select>
+                <div id="card-details">
+                    <input type="text" id="card-number" placeholder="Card Number">
+                    <input type="text" id="expiry" placeholder="Expiry Date (MM/YY)">
+                    <input type="text" id="cvv" placeholder="CVV">
+                </div>
+                <div id="upi-details">
+                    <label>Select UPI App:</label>
+                    <select id="upi-app">
+                        <option value="google-pay">Google Pay</option>
+                        <option value="phone-pe">PhonePe</option>
+                    </select>
+                    <input type="text" id="upi-id" placeholder="Enter UPI ID">
+                </div>
+                <button class="donate-btn"><b> DONATE NOW</b></button>
+            </form>
+            <div id="thank-you">
+                <h3>Thank you for your donation!</h3>
+                <p>We appreciate your support.</p>
+            </div>
+        </div>
+        </div>
+        <script src="script2.js"></script>
+        <footer>
+            <p>&copy; 2025 APNA GHAR. All rights reserved.</p>
+        </footer>
+
+    </body>
+    </html>
