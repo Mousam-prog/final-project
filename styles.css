@@ -94,9 +94,9 @@ body {
 }
 
 .donate-btn {
-    display: inline-block;
+    display: inline-block; /* Ensure it behaves like a button */
     margin-top: 20px;
-    padding: 12px 25px;
+    padding: 10px 20px; /* Adjust padding */
     background: #00A376;
     color: white;
     font-size: 16px;
@@ -104,6 +104,13 @@ body {
     border-radius: 25px;
     font-weight: bold;
     transition: 0.3s;
+    text-align: center;
+}
+
+.nav-right .donate-btn {
+    padding: 8px 15px; 
+    font-size: 14px; 
+    margin: 0;
 }
 
 .donate-btn:hover {
