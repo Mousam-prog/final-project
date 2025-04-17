@@ -302,6 +302,16 @@ h1 {
     background-repeat: no-repeat;
     flex: 1;
   }
+  .container4 {
+    max-width: 800px;
+    background: #ffffff;
+    padding: 3rem;
+    margin: auto;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    height: auto;
+    width: 600px;
+  }
   
   .container3 {
     max-width: 800px;

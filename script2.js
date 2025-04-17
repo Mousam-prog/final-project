@@ -18,3 +18,14 @@ document.getElementById("donation-form").addEventListener("submit", function(eve
     document.getElementById("thank-you").style.display = "block";
     this.style.display = "none";
 });
+    document.addEventListener("DOMContentLoaded", function () {
+        const registerBtn = document.getElementById("register-btn");
+        const container4 = document.querySelector(".container4");
+        const container3 = document.getElementById("container3");
+
+        registerBtn.addEventListener("click", function () {
+            container4.style.display = "none";
+            container3.style.display = "block";
+        });
+    });
+
